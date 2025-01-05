@@ -122,10 +122,7 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
+         
         </div>
       </div>
     </div>`
@@ -163,7 +160,13 @@ fetchData("projects").then(data => {
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
-// <!-- tilt js effect ends -->
+// <!-- tilt js effect ends
+// <!-- <div class="btns">
+{/* <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+<a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+</div> --> */}
+// 
+//  -->
 
 
 // pre loader start
