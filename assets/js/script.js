@@ -162,9 +162,9 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 });
 // <!-- tilt js effect ends
 // <!-- <div class="btns">
-{/* <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+/* <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
 <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-</div> --> */}
+</div> --> */
 // 
 //  -->
 
